@@ -3,6 +3,5 @@
 </script>
 
 <Slide>
-  <h1>Title</h1>
-  <p>Content</p>
+  <h1>Page1</h1>
 </Slide>
