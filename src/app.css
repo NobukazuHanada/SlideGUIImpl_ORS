@@ -5,6 +5,7 @@
     --accent-color: #e1fc17ed;
     --text-color: #fffbfbf5;
     --nav-text-size: 1rem;
+    font-size: 20px;
 }
 
 body, html {
@@ -23,12 +24,20 @@ body {
 
 h1 {
     color: var(--main-color);
+    font-weight: semi-bold;
     font-size: 5rem;
 }
 
-p {
+h2 {
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+p, li {
     color: var(--text-color);
     font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 a {
@@ -45,7 +54,11 @@ ul ul {
     list-style-type: circle;
 }
 
+
 em {
     color: var(--accent-color);
     font-weight: bold;
 }
+
+
+

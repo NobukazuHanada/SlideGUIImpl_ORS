@@ -14,7 +14,11 @@
     { href: '/agenda', name: 'agenda' },
     { href: '/about-ui/what-is-ui', name: 'what-is-ui' },
     { href: '/about-ui/why-difficult-ui', name: 'why-difficult-ui' },
-    { href: '/about-ui/deal-with-difficulty', name: 'deal-with-difficulty' }
+    { href: '/about-ui/deal-with-difficulty', name: 'deal-with-difficulty' },
+    { href: '/about-ui/historical-transition', name: 'historical-transition' },
+    { href: '/ui-impl/dependency-mvc-1', name: 'mvc1' },
+    { href: '/ui-impl/dependency-mvc-2', name: 'mvc2' },
+    { href: '/ui-impl/dependency-mvc-3', name: 'mvc3' }
   ];
 
   let currentPageIndex = $derived.by(() => {
