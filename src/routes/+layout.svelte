@@ -2,6 +2,7 @@
   import { goto, onNavigate } from '$app/navigation';
   import { page } from '$app/stores';
   import { fly, fade, scale } from 'svelte/transition';
+  import 'destyle.css';
   let { children } = $props();
 
   onNavigate(async (navigation) => {
@@ -36,7 +37,7 @@
 
 <style>
   :root {
-    --bg-color: #020a10;
+    --bg-color: #051725;
     --nav-bg-color: #0a4c78;
     --main-color: #6fb4ff;
     --accent-color: #e1fc17ed;
@@ -45,6 +46,7 @@
   }
   :global(body, html) {
     height: 100%;
+    font-family: 'Arial', 'メイリオ';
   }
 
   :global(body) {
@@ -76,6 +78,7 @@
     display: flex;
     gap: 0.5rem;
     list-style: none;
+    padding: 1rem;
   }
 
   a {
