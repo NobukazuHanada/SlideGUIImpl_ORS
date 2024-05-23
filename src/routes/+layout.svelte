@@ -70,7 +70,7 @@
   }
   :global(body, html) {
     height: 100%;
-    font-family: 'Arial', 'メイリオ';
+    font-family: '游ゴシック', 'Yu Gothic', 'Meiryo', 'メイリオ', sans-serif;
   }
 
   :global(body) {
