@@ -3,6 +3,6 @@
 </script>
 
 <Slide>
-  <h1>Title</h1>
-  <p>Content</p>
+  <h1>VanillaJSマンの視点から見た、Observable, Reactive, SignalsとGUI実装技術について</h1>
+  <p>by <a href="https://twitter.com/nobkz">nobkz</a></p>
 </Slide>
