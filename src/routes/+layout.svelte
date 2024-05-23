@@ -3,6 +3,7 @@
   import { page } from '$app/stores';
   import { fly, fade, scale } from 'svelte/transition';
   import 'destyle.css';
+  import '../app.css';
   import { browser } from '$app/environment';
   let { children } = $props();
   let gotoPrevPage = $state(false);
@@ -60,47 +61,6 @@
 </main>
 
 <style>
-  :root {
-    --bg-color: #051725;
-    --nav-bg-color: #0a4c78;
-    --main-color: #6fb4ff;
-    --accent-color: #e1fc17ed;
-    --text-color: #fffbfbf5;
-    --nav-text-size: 1rem;
-  }
-  :global(body, html) {
-    height: 100%;
-    font-family: '游ゴシック', 'Yu Gothic', 'Meiryo', 'メイリオ', sans-serif;
-  }
-
-  :global(body) {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    overflow-x: hidden;
-    margin: 0;
-    background-color: black;
-  }
-
-  :global(h1) {
-    color: var(--main-color);
-    font-size: 5rem;
-  }
-
-  :global(p) {
-    color: var(--text-color);
-    font-size: 1.5rem;
-  }
-
-  :global(a) {
-    color: var(--main-color);
-    text-decoration: underline;
-  }
-
-  :global(ul) {
-    list-style-type: disc;
-  }
-
   nav {
     view-transition-name: header;
     background-color: var(--nav-bg-color);

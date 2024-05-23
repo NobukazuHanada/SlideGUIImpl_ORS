@@ -1,0 +1,51 @@
+:root {
+    --bg-color: #051725;
+    --nav-bg-color: #0a4c78;
+    --main-color: #6fb4ff;
+    --accent-color: #e1fc17ed;
+    --text-color: #fffbfbf5;
+    --nav-text-size: 1rem;
+}
+
+body, html {
+    height: 100%;
+    font-family: '游ゴシック', 'Yu Gothic', 'Meiryo', 'メイリオ', sans-serif;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    overflow-x: hidden;
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    color: var(--main-color);
+    font-size: 5rem;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+em {
+    color: var(--accent-color);
+    font-weight: bold;
+}
