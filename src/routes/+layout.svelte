@@ -38,14 +38,22 @@
       goto(links[currentPageIndex + 1].href);
     }
   }
+
+  function handleNavClick(i: number) {
+    gotoPrevPage = i < currentPageIndex;
+  }
 </script>
 
 <svelte:window on:keydown={handleKeyDown} />
 
 <nav>
   <ul>
-    {#each links as { href, name }}
-      <li><a class:current={$page.url.pathname === href} {href}>{name}</a></li>
+    {#each links as { href, name }, i}
+      <li>
+        <a class:current={$page.url.pathname === href} onclick={() => handleNavClick(i)} {href}
+          >{name}</a
+        >
+      </li>
     {/each}
   </ul>
 </nav>
