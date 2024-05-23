@@ -10,12 +10,12 @@
 <style>
   section {
     height: 100%;
-    display: grid;
     place-content: center;
     color: white;
     font-size: 1.4em;
     background-color: var(--bg-color);
     grid-row: 1;
     grid-column: 1;
+    padding: 5rem;
   }
 </style>
