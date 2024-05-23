@@ -10,7 +10,11 @@
 
   const links = [
     { href: '/', name: 'title' },
-    { href: '/page1', name: 'p1' }
+    { href: '/about', name: 'about' },
+    { href: '/agenda', name: 'agenda' },
+    { href: '/about-ui/what-is-ui', name: 'what-is-ui' },
+    { href: '/about-ui/why-difficult-ui', name: 'why-difficult-ui' },
+    { href: '/about-ui/deal-with-difficulty', name: 'deal-with-difficulty' }
   ];
 
   let currentPageIndex = $derived.by(() => {
