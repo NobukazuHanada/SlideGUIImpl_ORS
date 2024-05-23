@@ -97,6 +97,10 @@
     text-decoration: underline;
   }
 
+  :global(ul) {
+    list-style-type: disc;
+  }
+
   nav {
     view-transition-name: header;
     background-color: var(--nav-bg-color);

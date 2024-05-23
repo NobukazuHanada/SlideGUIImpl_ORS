@@ -1,10 +1,12 @@
 <script lang="ts">
   import { unmount, type Snippet } from 'svelte';
-  let { children }: { children: Snippet; show: boolean } = $props();
+  let { children, className }: { children: Snippet; className?: string } = $props();
 </script>
 
-<section>
-  {@render children()}
+<section class={className}>
+  <div>
+    {@render children()}
+  </div>
 </section>
 
 <style>
@@ -17,5 +19,11 @@
     grid-row: 1;
     grid-column: 1;
     padding: 5rem;
+  }
+
+  div {
+    display: grid;
+    place-content: center;
+    gap: 1rem;
   }
 </style>
