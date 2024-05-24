@@ -102,19 +102,6 @@
     border-radius: 5px;
   }
 
-  pre {
-    background-color: #333;
-    color: #f8f8f2;
-    padding: 0.5rem;
-    border-radius: 5px;
-    overflow: auto;
-  }
-
-  code {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
-  }
-
   input[type='text'] {
     background-color: #333;
     color: var(--text-color);

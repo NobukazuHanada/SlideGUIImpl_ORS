@@ -16,9 +16,19 @@
     { href: '/about-ui/why-difficult-ui', name: 'why-difficult-ui' },
     { href: '/about-ui/deal-with-difficulty', name: 'deal-with-difficulty' },
     { href: '/about-ui/historical-transition', name: 'historical-transition' },
+    { href: '/about-ui/interaction', name: 'interaction' },
+    { href: '/about-ui/event-state', name: 'state' },
+    { href: '/ui-impl', name: 'ui-impl' },
+    { href: '/ui-impl/dependency-mvc', name: 'mvc' },
     { href: '/ui-impl/dependency-mvc-1', name: 'mvc1' },
     { href: '/ui-impl/dependency-mvc-2', name: 'mvc2' },
-    { href: '/ui-impl/dependency-mvc-3', name: 'mvc3' }
+    { href: '/ui-impl/dependency-mvc-3', name: 'mvc3' },
+    { href: '/ui-impl/reactive', name: 'reactive' },
+    { href: '/ui-impl/reactive1', name: 'reactive1' },
+    { href: '/ui-impl/reactive2', name: 'reactive2' },
+    { href: '/ui-impl/reactive3', name: 'reactive3' },
+    { href: '/ui-impl/reactive4', name: 'reactive4' },
+    { href: '/ui-impl/reactive5', name: 'reactive5' }
   ];
 
   let currentPageIndex = $derived.by(() => {

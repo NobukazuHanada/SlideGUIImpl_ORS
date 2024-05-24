@@ -5,9 +5,8 @@
 <Slide>
   <h1>アジェンダ</h1>
   <ul>
-    <li>UI実装から見たフロントエンドの変遷について</li>
-    <li>Reactiveとは</li>
-    <li>Signalとは</li>
-    <li>SvelteでのSignal</li>
+    <li>UIについてと、UIからみたフロントエンドの変遷</li>
+    <li>MVC, Reactive, Observable, Signal</li>
+    <li>SvelteでのSignalとReactivity</li>
   </ul>
 </Slide>

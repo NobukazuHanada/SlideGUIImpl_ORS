@@ -1,64 +1,110 @@
 :root {
-    --bg-color: #051725;
-    --nav-bg-color: #0a4c78;
-    --main-color: #6fb4ff;
-    --accent-color: #e1fc17ed;
-    --text-color: #fffbfbf5;
-    --nav-text-size: 1rem;
-    font-size: 20px;
+  --bg-color: #051725;
+  --nav-bg-color: #0a4c78;
+  --text-background-color: #0a4c78;
+  --main-color: #6fb4ff;
+  --accent-color: #e1fc17ed;
+  --text-color: #fffbfbf5;
+  --nav-text-size: 1rem;
+  font-size: 20px;
 }
 
-body, html {
-    height: 100%;
-    font-family: '游ゴシック', 'Yu Gothic', 'Meiryo', 'メイリオ', sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: '游ゴシック', 'Yu Gothic', 'Meiryo', 'メイリオ', sans-serif;
 }
 
 body {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    overflow-x: hidden;
-    margin: 0;
-    background-color: black;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: black;
 }
 
 h1 {
-    color: var(--main-color);
-    font-weight: semi-bold;
-    font-size: 5rem;
+  color: var(--main-color);
+  font-weight: semi-bold;
+  font-size: 5rem;
 }
 
 h2 {
-    color: var(--main-color);
-    font-size: 2rem;
-    font-weight: normal;
+  color: var(--main-color);
+  font-size: 2rem;
+  font-weight: normal;
 }
 
-p, li {
-    color: var(--text-color);
-    font-size: 1.5rem;
-    font-weight: lighter;
+p,
+li {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 
 a {
-    color: var(--main-color);
-    text-decoration: underline;
+  color: var(--main-color);
+  text-decoration: underline;
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 2rem;
+  list-style-type: disc;
+  padding-left: 2rem;
 }
 
 ul ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
-
 
 em {
-    color: var(--accent-color);
-    font-weight: bold;
+  color: var(--accent-color);
+  font-weight: bold;
 }
 
+pre {
+  background-color: #333;
+  color: #f8f8f2;
+  padding: 0.5rem;
+  border-radius: 5px;
+  overflow: auto;
+}
 
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  text-align: left;
+}
 
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+textarea {
+  background-color: #333;
+  color: var(--text-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--text-background-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--main-color);
+  color: var(--text-background-color);
+}
+
+button:active {
+  background-color: var(--text-background-color);
+  color: var(--text-background-color);
+}
