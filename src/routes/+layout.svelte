@@ -11,6 +11,7 @@
   const links = [
     { href: '/', name: 'title' },
     { href: '/about', name: 'about' },
+    { href: '/nobkz', name: 'nobkz' },
     { href: '/agenda', name: 'agenda' },
     { href: '/about-ui/what-is-ui', name: 'what-is-ui' },
     { href: '/about-ui/why-difficult-ui', name: 'why-difficult-ui' },
@@ -36,7 +37,11 @@
     { href: '/ui-impl/reactive4', name: 'reactive4' },
     { href: '/ui-impl/reactive5', name: 'reactive5' },
     { href: '/ui-impl/observable', name: 'observable' },
-    { href: '/ui-impl/propagation-development', name: 'propagation-development' }
+    { href: '/ui-impl/propagation-development', name: 'propagation-development' },
+    { href: '/ui-impl/fine-grained-reactivity', name: 'fine-grained-reactivity' },
+    { href: '/svelte-signals/reactive', name: 'reactive-svelte5' },
+    { href: '/svelte-signals/fine-grained-reactivity', name: 'fine-grained-reactivity' },
+    { href: '/last', name: 'last' }
   ];
 
   let currentPageIndex = $derived.by(() => {
