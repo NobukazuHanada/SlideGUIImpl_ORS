@@ -17,7 +17,13 @@
     { href: '/about-ui/deal-with-difficulty', name: 'deal-with-difficulty' },
     { href: '/about-ui/historical-transition', name: 'historical-transition' },
     { href: '/about-ui/interaction', name: 'interaction' },
+    { href: '/about-ui/input-to-view', name: 'input-view' },
+    { href: '/about-ui/model', name: 'model' },
+    { href: '/about-ui/model-to-server', name: 'model-server' },
     { href: '/about-ui/event-state', name: 'state' },
+    { href: '/about-ui/first-web-app', name: 'first-web-app' },
+    { href: '/about-ui/spa', name: 'spa' },
+    { href: '/about-ui/state-framework-and-mvc', name: 'state-framework-and-mvc' },
     { href: '/ui-impl', name: 'ui-impl' },
     { href: '/ui-impl/dependency-mvc', name: 'mvc' },
     { href: '/ui-impl/dependency-mvc-1', name: 'mvc1' },
@@ -28,7 +34,9 @@
     { href: '/ui-impl/reactive2', name: 'reactive2' },
     { href: '/ui-impl/reactive3', name: 'reactive3' },
     { href: '/ui-impl/reactive4', name: 'reactive4' },
-    { href: '/ui-impl/reactive5', name: 'reactive5' }
+    { href: '/ui-impl/reactive5', name: 'reactive5' },
+    { href: '/ui-impl/observable', name: 'observable' },
+    { href: '/ui-impl/propagation-development', name: 'propagation-development' }
   ];
 
   let currentPageIndex = $derived.by(() => {
@@ -97,7 +105,8 @@
     display: flex;
     gap: 0.5rem;
     list-style: none;
-    padding: 1rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
   }
 
   nav ul a {
